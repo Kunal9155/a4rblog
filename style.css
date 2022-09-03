@@ -119,15 +119,20 @@
 		}
 		.card{
 			border: 2px solid red !important;
-			border-radius: 5px;
+			border-radius: 85px !important ;
 			
 		}
 		.read-button{
 			border: 2px solid red !important;
 			background-color: #111111 !important;
-			
+			width: calc(40% - 4px);
+            height: calc(40% - 4px);
+
 		}
 		.read-button:hover{
 			background-color: red !important;
 			;
+		}
+		.blog-banner{
+			height: 50% !important;
 		}
